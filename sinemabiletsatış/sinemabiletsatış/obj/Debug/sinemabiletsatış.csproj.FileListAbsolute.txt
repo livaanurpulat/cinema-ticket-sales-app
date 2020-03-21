@@ -1,0 +1,9 @@
+C:\Users\Asus\Desktop\sinemabiletsatış\sinemabiletsatış\bin\Debug\sinemabiletsatış.exe.config
+C:\Users\Asus\Desktop\sinemabiletsatış\sinemabiletsatış\bin\Debug\sinemabiletsatış.exe
+C:\Users\Asus\Desktop\sinemabiletsatış\sinemabiletsatış\bin\Debug\sinemabiletsatış.pdb
+C:\Users\Asus\Desktop\sinemabiletsatış\sinemabiletsatış\obj\Debug\sinemabiletsatış.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\sinemabiletsatış\sinemabiletsatış\obj\Debug\sinemabiletsatış.Form1.resources
+C:\Users\Asus\Desktop\sinemabiletsatış\sinemabiletsatış\obj\Debug\sinemabiletsatış.Properties.Resources.resources
+C:\Users\Asus\Desktop\sinemabiletsatış\sinemabiletsatış\obj\Debug\sinemabiletsatış.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\sinemabiletsatış\sinemabiletsatış\obj\Debug\sinemabiletsatış.exe
+C:\Users\Asus\Desktop\sinemabiletsatış\sinemabiletsatış\obj\Debug\sinemabiletsatış.pdb
