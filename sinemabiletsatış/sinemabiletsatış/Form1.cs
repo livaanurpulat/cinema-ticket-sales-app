@@ -1,4 +1,16 @@
-﻿using System;
+﻿/****************************************************************************
+**                           SAKARYA ÜNİVERSİTESİ
+**                  BİLGİSAYAR VE BİLİŞİM BİLİMLERİ FAKÜLTESİ
+**                    BİLİŞİM SİSTEMLERİ MÜHENDİSLİĞİ BÖLÜMÜ
+**                       NESNEYE DAYALI PROGRAMLAMA DERSİ
+**                           2019-2020 BAHAR DÖNEMİ
+**
+**                    ÖDEV NUMARASI..........: 1
+**                    ÖĞRENCİ ADI............: Liva Nur PULAT
+**                    ÖĞRENCİ NUMARASI.......: B191200371
+**                    DERSİN ALINDIĞI GRUP...: A
+****************************************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -43,10 +55,12 @@ namespace sinemabiletsatış
             textBox1.Text = seans1kişi.ToString();
             textBox2.Text = seans1ücret.ToString();
 
+            //her bir seans 20 kişilik salonlardadır. 20 kişiye ulaştığında daha fazla artırılmasını engellemek için bu koşulu kullandım.//
             if (seans1kişi == 20)
             {
                 button1.Enabled = false;
             }
+            //kişi sayısı 0'a eşit veya büyükse buton2'yi('-' butonu) etkinleştirmesi için bu koşulu kullandım.//
             if (seans1kişi >= 0)
             {
                 button2.Enabled = true;
@@ -61,10 +75,12 @@ namespace sinemabiletsatış
             textBox1.Text = seans1kişi.ToString();
             textBox2.Text = seans1ücret.ToString();
 
+            //kişi sayısı 0 ise buton2'nin etkinliğini durdursun, yani sayı eksilere(-1,-2...) düşmesin diye bu koşulu kullandım.//
             if (seans1kişi == 0)
             {
                 button2.Enabled = false;
             }
+            //buton2 koşulunda buton 1'i aktifleştirmek için bu koşulu kullandım.//
             if (seans1kişi <= 20)
             {
                 button1.Enabled = true;
@@ -248,6 +264,12 @@ namespace sinemabiletsatış
             textBox13.Text = mısır.ToString();
             textBox14.Text = mısırücret.ToString();
 
+            //eksi butonunda(buton14) yazdığım koşul uygulandığında sayı arttığında tekrar aktifleşmesi için artı butonunda eksi butonunu etkinleştirdim.//
+            if (mısır > 0)
+            {
+                button14.Enabled = true;
+            }
+
         }
 
 
@@ -258,6 +280,12 @@ namespace sinemabiletsatış
             textBox13.Text = mısır.ToString();
             textBox14.Text = mısırücret.ToString();
 
+            //sayının eksilere düşmesini engellemek için bu koşulu yazdım.//
+            if(mısır == 0)
+            {
+                button14.Enabled = false;
+            }
+
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -266,6 +294,11 @@ namespace sinemabiletsatış
             kolaücret = kolaücret + 3;
             textBox15.Text = kola.ToString();
             textBox16.Text = kolaücret.ToString();
+
+            if (kola > 0)
+            {
+                button16.Enabled = true;
+            }
         }
 
         private void button16_Click(object sender, EventArgs e)
@@ -274,6 +307,11 @@ namespace sinemabiletsatış
             kolaücret = kolaücret - 3;
             textBox15.Text = kola.ToString();
             textBox16.Text = kolaücret.ToString();
+
+            if (kola == 0)
+            {
+                button16.Enabled = false;
+            }
 
         }
 
@@ -284,6 +322,11 @@ namespace sinemabiletsatış
             textBox17.Text = msuyu.ToString();
             textBox18.Text = msuyuücret.ToString();
 
+            if (msuyu > 0)
+            {
+                button18.Enabled = true;
+            }
+
         }
 
         private void button18_Click(object sender, EventArgs e)
@@ -292,6 +335,12 @@ namespace sinemabiletsatış
             msuyuücret = msuyuücret - 3;
             textBox17.Text = msuyu.ToString();
             textBox18.Text = msuyuücret.ToString();
+
+            if (msuyu == 0)
+            {
+                button18.Enabled = false;
+            }
+
         }
 
         private void button19_Click(object sender, EventArgs e)
@@ -300,6 +349,11 @@ namespace sinemabiletsatış
             suücret = suücret + 1;
             textBox19.Text = su.ToString();
             textBox20.Text = suücret.ToString();
+
+            if (su > 0)
+            {
+                button20.Enabled = true;
+            }
         }
 
         private void button20_Click(object sender, EventArgs e)
@@ -308,6 +362,13 @@ namespace sinemabiletsatış
             suücret = suücret - 1;
             textBox19.Text = su.ToString();
             textBox20.Text = suücret.ToString();
+
+            if (su == 0)
+            {
+                button20.Enabled = false;
+            }
+
+
         }
 
         private void button21_Click(object sender, EventArgs e)
