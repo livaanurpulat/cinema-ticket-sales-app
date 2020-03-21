@@ -750,7 +750,7 @@
             // 
             this.button21.Location = new System.Drawing.Point(457, 486);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(105, 29);
+            this.button21.Size = new System.Drawing.Size(120, 35);
             this.button21.TabIndex = 39;
             this.button21.Text = "HESAPLA";
             this.button21.UseVisualStyleBackColor = true;
@@ -878,9 +878,9 @@
             // 
             // Form1
             // 
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(968, 638);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label28);
@@ -932,6 +932,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
