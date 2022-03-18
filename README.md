@@ -1,2 +1,2 @@
-# ndp-odev1
+# cinematicketsalesapp
  sinema bilet satis uygulamasi
